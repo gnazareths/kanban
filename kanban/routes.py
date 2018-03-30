@@ -1,6 +1,5 @@
-from kanban import app
-from flask import request, session, g, redirect, url_for, abort, \
-     render_template, flash
+from kanban import *
+from flask import render_template
 
 @app.route('/')
 @app.route('/index')
