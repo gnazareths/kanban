@@ -1,0 +1,3 @@
+graft kanban/templates
+graft kanban/static
+include kanban/schema.sql
