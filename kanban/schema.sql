@@ -7,8 +7,10 @@ create table users (
 );
 
 drop table if exists boards;
+
 create table boards (
   id integer primary key autoincrement,
+  author_id integer not null,
   name text not null,
   description text,
   foreign key (author_id) references users(id)
